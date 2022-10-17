@@ -6,7 +6,7 @@
       <div class="row">
          <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px">
             <div class="position-relative h-100">
-               <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover" />
+               <img class="position-absolute w-100 h-100" src="<?php echo get_theme_file_uri('/img/about.jpg') ?>" style="object-fit: cover" />
             </div>
          </div>
          <div class="col-lg-7">
@@ -123,7 +123,7 @@
          </div>
          <div class="col-lg-5" style="min-height: 500px">
             <div class="position-relative h-100">
-               <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover" />
+               <img class="position-absolute w-100 h-100" src="<?php echo get_theme_file_uri('/img/feature.jpg') ?>" style="object-fit: cover" />
             </div>
          </div>
       </div>
@@ -145,7 +145,7 @@
    </div>
    <div class="owl-carousel courses-carousel">
       <div class="courses-item position-relative">
-         <img class="img-fluid" src="img/courses-1.jpg" alt="" />
+         <img class="img-fluid" src="<?php echo get_theme_file_uri('/img/courses-1.jpg') ?>" alt="" />
          <div class="courses-text">
             <h4 class="text-center text-white px-3">
                Web design & development courses for beginners
@@ -162,7 +162,7 @@
          </div>
       </div>
       <div class="courses-item position-relative">
-         <img class="img-fluid" src="img/courses-2.jpg" alt="" />
+         <img class="img-fluid" src="<?php echo get_theme_file_uri('/img/courses-1.jpg') ?>" alt="" />
          <div class="courses-text">
             <h4 class="text-center text-white px-3">
                Web design & development courses for beginners
@@ -179,7 +179,7 @@
          </div>
       </div>
       <div class="courses-item position-relative">
-         <img class="img-fluid" src="img/courses-3.jpg" alt="" />
+         <img class="img-fluid" src="<?php echo get_theme_file_uri('/img/courses-3.jpg') ?>" alt="" />
          <div class="courses-text">
             <h4 class="text-center text-white px-3">
                Web design & development courses for beginners
@@ -196,7 +196,7 @@
          </div>
       </div>
       <div class="courses-item position-relative">
-         <img class="img-fluid" src="img/courses-4.jpg" alt="" />
+         <img class="img-fluid" src="<?php echo get_theme_file_uri('/img/courses-4.jpg') ?>" alt="" />
          <div class="courses-text">
             <h4 class="text-center text-white px-3">
                Web design & development courses for beginners
@@ -213,7 +213,7 @@
          </div>
       </div>
       <div class="courses-item position-relative">
-         <img class="img-fluid" src="img/courses-5.jpg" alt="" />
+         <img class="img-fluid" src="<?php echo get_theme_file_uri('/img/courses-5.jpg') ?>" alt="" />
          <div class="courses-text">
             <h4 class="text-center text-white px-3">
                Web design & development courses for beginners
@@ -230,7 +230,7 @@
          </div>
       </div>
       <div class="courses-item position-relative">
-         <img class="img-fluid" src="img/courses-6.jpg" alt="" />
+         <img class="img-fluid" src="<?php echo get_theme_file_uri('/img/courses-6.jpg') ?>" alt="" />
          <div class="courses-text">
             <h4 class="text-center text-white px-3">
                Web design & development courses for beginners
@@ -299,7 +299,7 @@
       </div>
       <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px">
          <div class="team-item">
-            <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+            <img class="img-fluid w-100" src="<?php echo get_theme_file_uri('/img/team-1.jpg') ?>" alt="" />
             <div class="bg-light text-center p-4">
                <h5 class="mb-3">Instructor Name</h5>
                <p class="mb-2">Web Design & Development</p>
@@ -313,7 +313,7 @@
             </div>
          </div>
          <div class="team-item">
-            <img class="img-fluid w-100" src="img/team-2.jpg" alt="" />
+            <img class="img-fluid w-100" src="<?php echo get_theme_file_uri('/img/team-2.jpg') ?>" alt="" />
             <div class="bg-light text-center p-4">
                <h5 class="mb-3">Instructor Name</h5>
                <p class="mb-2">Web Design & Development</p>
@@ -327,7 +327,7 @@
             </div>
          </div>
          <div class="team-item">
-            <img class="img-fluid w-100" src="img/team-3.jpg" alt="" />
+            <img class="img-fluid w-100" src="<?php echo get_theme_file_uri('/img/team-3.jpg') ?>" alt="" />
             <div class="bg-light text-center p-4">
                <h5 class="mb-3">Instructor Name</h5>
                <p class="mb-2">Web Design & Development</p>
@@ -341,7 +341,7 @@
             </div>
          </div>
          <div class="team-item">
-            <img class="img-fluid w-100" src="img/team-4.jpg" alt="" />
+            <img class="img-fluid w-100" src="<?php echo get_theme_file_uri('/img/team-4.jpg') ?>" alt="" />
             <div class="bg-light text-center p-4">
                <h5 class="mb-3">Instructor Name</h5>
                <p class="mb-2">Web Design & Development</p>
@@ -389,7 +389,7 @@
                      amet elitr duo lorem
                   </p>
                   <div class="d-flex flex-shrink-0 align-items-center mt-4">
-                     <img class="img-fluid mr-4" src="img/testimonial-2.jpg" alt="" />
+                     <img class="img-fluid mr-4" src="<?php echo get_theme_file_uri('/img/testimonial-2.jpg') ?>" alt="" />
                      <div>
                         <h5>Student Name</h5>
                         <span>Web Design</span>
@@ -405,7 +405,7 @@
                      amet elitr duo lorem
                   </p>
                   <div class="d-flex flex-shrink-0 align-items-center mt-4">
-                     <img class="img-fluid mr-4" src="img/testimonial-1.jpg" alt="" />
+                     <img class="img-fluid mr-4" src="<?php echo get_theme_file_uri('/img/testimonial-1.jpg') ?>" alt="" />
                      <div>
                         <h5>Student Name</h5>
                         <span>Web Design</span>
